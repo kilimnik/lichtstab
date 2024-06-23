@@ -806,7 +806,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "/home/daniel/lichtstab/pcb/3_USB-PD.kicad_sch"
+		(property "Sheetfile" "3_USB-PD.kicad_sch"
 			(at 15.24 105.9946 0)
 			(effects
 				(font
@@ -864,7 +864,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "/home/daniel/lichtstab/pcb/4_POWER.kicad_sch"
+		(property "Sheetfile" "4_POWER.kicad_sch"
 			(at 15.24 126.3146 0)
 			(effects
 				(font
@@ -912,7 +912,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "/home/daniel/lichtstab/pcb/1_P1.kicad_sch"
+		(property "Sheetfile" "1_P1.kicad_sch"
 			(at 229.87 159.3346 0)
 			(effects
 				(font
@@ -1398,7 +1398,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "/home/daniel/lichtstab/pcb/2_POE.kicad_sch"
+		(property "Sheetfile" "2_POE.kicad_sch"
 			(at 15.24 88.2146 0)
 			(effects
 				(font

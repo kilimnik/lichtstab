@@ -2954,12 +2954,6 @@
 		(uuid "8dbc846a-2307-461c-b345-8fd8450b0957")
 	)
 	(junction
-		(at 227.33 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "932f3e75-98cf-4069-b393-0a6eaf34e353")
-	)
-	(junction
 		(at 166.37 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2978,22 +2972,10 @@
 		(uuid "b433b409-7f64-4ac2-809b-863c5638e724")
 	)
 	(junction
-		(at 166.37 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cbb7fba7-b212-418b-9198-29d5bc052625")
-	)
-	(junction
 		(at 205.74 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d10472c4-8813-44e6-8a59-34a8689e95d5")
-	)
-	(junction
-		(at 227.33 158.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d76f698f-0879-4c25-a9ba-8fffa3ad02db")
 	)
 	(junction
 		(at 245.11 166.37)
@@ -3039,16 +3021,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 158.75) (xy 262.89 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b6af022-5766-472d-9b54-52e7f484f7ab")
-	)
-	(wire
-		(pts
 			(xy 77.47 137.16) (xy 87.63 137.16)
 		)
 		(stroke
@@ -3066,16 +3038,6 @@
 			(type default)
 		)
 		(uuid "11f58fa6-6c50-43a1-bb2f-8bacb3259835")
-	)
-	(wire
-		(pts
-			(xy 166.37 158.75) (xy 227.33 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "124d8dc4-ab98-431c-ad65-3f16ab5e4acd")
 	)
 	(wire
 		(pts
@@ -3119,16 +3081,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 137.16) (xy 262.89 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a0fa111-9314-479f-b710-4b73fafb17bd")
-	)
-	(wire
-		(pts
 			(xy 152.4 123.19) (xy 146.05 123.19)
 		)
 		(stroke
@@ -3139,7 +3091,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 137.16) (xy 227.33 143.51)
+			(xy 262.89 137.16) (xy 262.89 143.51)
 		)
 		(stroke
 			(width 0)
@@ -3269,7 +3221,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 137.16) (xy 227.33 137.16)
+			(xy 215.9 137.16) (xy 262.89 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3429,16 +3381,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 151.13) (xy 166.37 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa7ea5fe-5d81-47a1-b4c0-ade97bd1904e")
-	)
-	(wire
-		(pts
 			(xy 262.89 137.16) (xy 262.89 115.57)
 		)
 		(stroke
@@ -3479,7 +3421,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 166.37) (xy 262.89 158.75)
+			(xy 262.89 151.13) (xy 262.89 166.37)
 		)
 		(stroke
 			(width 0)
@@ -3496,16 +3438,6 @@
 			(type default)
 		)
 		(uuid "bbe5c657-63f5-45f6-b452-13bcc5654511")
-	)
-	(wire
-		(pts
-			(xy 166.37 137.16) (xy 166.37 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf41ba02-384e-4ce3-a12f-66494392a87b")
 	)
 	(wire
 		(pts
@@ -3616,16 +3548,6 @@
 			(type default)
 		)
 		(uuid "f2a64865-b913-4ad1-9b5d-352f13d3da3d")
-	)
-	(wire
-		(pts
-			(xy 227.33 158.75) (xy 227.33 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3efcb52-c95e-42dd-90be-400637579cfd")
 	)
 	(wire
 		(pts
@@ -4232,86 +4154,6 @@
 		(uuid "fb91c0a9-8c08-45e7-aab8-369978432573")
 	)
 	(symbol
-		(lib_name "SS34_1")
-		(lib_id "Diode:SS34")
-		(at 166.37 147.32 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "027e2c95-3d9d-478f-adde-3f3582d163a5")
-		(property "Reference" "D1"
-			(at 168.91 146.3674 90)
-			(effects
-				(font
-					(size 0.8382 0.8382)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SS34"
-			(at 168.91 148.9074 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 170.815 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
-			(at 166.37 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "40V 3A Schottky Diode, SMA"
-			(at 166.37 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C8678"
-			(at 162.56 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4a758b6e-d249-43d9-8223-ebc327df133d")
-		)
-		(pin "2"
-			(uuid "50bd5f57-1044-453d-a657-9f65b5fd7a4b")
-		)
-		(instances
-			(project "Lichtstab"
-				(path "/e085f17c-3357-4281-ab9e-eebcecacdfc5/716186ee-16a1-4ec1-90c7-dc14427dfd17"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 152.4 123.19 90)
 		(unit 1)
@@ -4615,7 +4457,7 @@
 	(symbol
 		(lib_name "SS34_1")
 		(lib_id "Diode:SS34")
-		(at 227.33 147.32 90)
+		(at 262.89 147.32 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4624,7 +4466,7 @@
 		(fields_autoplaced yes)
 		(uuid "2b894f1d-5115-4eee-8c29-8fe4a4c9eed6")
 		(property "Reference" "D2"
-			(at 229.87 146.3674 90)
+			(at 265.43 146.3674 90)
 			(effects
 				(font
 					(size 0.8382 0.8382)
@@ -4633,7 +4475,7 @@
 			)
 		)
 		(property "Value" "SS34"
-			(at 229.87 148.9074 90)
+			(at 265.43 148.9074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4642,7 +4484,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 231.775 147.32 0)
+			(at 267.335 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4651,7 +4493,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
-			(at 227.33 147.32 0)
+			(at 262.89 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4660,7 +4502,7 @@
 			)
 		)
 		(property "Description" "40V 3A Schottky Diode, SMA"
-			(at 227.33 147.32 0)
+			(at 262.89 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4669,7 +4511,7 @@
 			)
 		)
 		(property "LCSC" "C8678"
-			(at 223.52 147.32 0)
+			(at 259.08 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
