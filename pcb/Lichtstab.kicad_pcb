@@ -3581,6 +3581,17 @@
 				(xyz 0 0 -0)
 			)
 		)
+		(model "${KIPRJMOD}/Library.3dshapes/SW-SMD_4P-L5.2-W5.2-H1.5-LS6.4-P3.70.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
@@ -6806,7 +6817,7 @@
 		)
 		(model "${KIPRJMOD}/Library.3dshapes/PWRM-TH_DP1435-XX.wrl"
 			(offset
-				(xyz 0 -0.4 0)
+				(xyz 0 4.8 7.5)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -7907,6 +7918,17 @@
 			(uuid "641e9516-e1b4-461c-8964-21be6ed0a077")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/TQFN-32-1EP_5x5mm_P0.5mm_EP3.4x3.4mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-32-1EP_5x5mm_P0.5mm_EP3.3x3.3mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10230,6 +10252,28 @@
 			)
 			(rotate
 				(xyz 0 0 -0)
+			)
+		)
+		(model "${KIPRJMOD}/Library.3dshapes/"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/Library.3dshapes/ESSOP-10_L4.9-W3.9-P1.0-LS6.0-TL-EP.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -19461,6 +19505,18 @@
 			(uuid "67336165-5bd6-4003-90c3-5022e6f7baed")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/RF_Module.3dshapes/ESP32-WROOM-32UE.wrl"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD8_3DMODEL_DIR}/RF_Module.3dshapes/ESP32-WROOM-32U.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -21066,6 +21122,17 @@
 			)
 			(rotate
 				(xyz 0 0 -0)
+			)
+		)
+		(model "${KIPRJMOD}/Library.3dshapes/SW-SMD_4P-L5.2-W5.2-H1.5-LS6.4-P3.70.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -26356,6 +26423,17 @@
 			)
 			(rotate
 				(xyz 0 0 -0)
+			)
+		)
+		(model "${KIPRJMOD}/Library.3dshapes/RJ45-TH_L16.3-W15.8-H13.1.wrl"
+			(offset
+				(xyz 0 -3.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -40687,7 +40765,18 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 -180)
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/Library.3dshapes/USB-C-SMD_TYPE-C16PIN.wrl"
+			(offset
+				(xyz 0 -2.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 180)
 			)
 		)
 	)
