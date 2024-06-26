@@ -3685,7 +3685,7 @@
 		)
 		(uuid "3f98cfb3-492a-43d4-b58c-34b0b420737b")
 	)
-	(hierarchical_label "EMAC_TXD-"
+	(hierarchical_label "EMAC_TXD1"
 		(shape output)
 		(at 234.95 67.31 0)
 		(fields_autoplaced yes)
@@ -3769,7 +3769,7 @@
 		)
 		(uuid "62399815-5954-4e2a-86ec-914446690a34")
 	)
-	(hierarchical_label "EMAC_RXD+"
+	(hierarchical_label "EMAC_RXD0"
 		(shape input)
 		(at 234.95 72.39 0)
 		(fields_autoplaced yes)
@@ -3829,7 +3829,7 @@
 		)
 		(uuid "75d22fcf-10ee-4ec0-bd77-f83cbee379fa")
 	)
-	(hierarchical_label "EMAC_TXD+"
+	(hierarchical_label "EMAC_TXD0"
 		(shape output)
 		(at 234.95 62.23 0)
 		(fields_autoplaced yes)
@@ -4021,7 +4021,7 @@
 		)
 		(uuid "dc61fefb-dc9a-4a26-9b2e-bdcfc7c1158c")
 	)
-	(hierarchical_label "EMAC_RXD-"
+	(hierarchical_label "EMAC_RXD1"
 		(shape input)
 		(at 234.95 74.93 0)
 		(fields_autoplaced yes)
@@ -6527,7 +6527,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESP32-WROOM-32UE-N4"
+		(property "Value" "ESP32-WROOM-32UE-N8"
 			(at 221.9041 24.13 0)
 			(effects
 				(font
@@ -6563,7 +6563,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C701344"
+		(property "LCSC" "C701345"
 			(at 207.01 86.36 0)
 			(effects
 				(font

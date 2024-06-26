@@ -5044,26 +5044,6 @@
 		)
 		(uuid "13c52f74-d411-44d7-bcc9-f7ed004dbedf")
 	)
-	(text "TXD+ und TXD- muss TXD[0] und TXD[1]\ndas Gleiche bei RXD"
-		(exclude_from_sim no)
-		(at 297.18 149.225 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "169aae20-9872-4143-9f82-4c3678b578d1")
-	)
-	(text "COL auf TP oder LED"
-		(exclude_from_sim no)
-		(at 259.08 79.375 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a85051cf-fb26-4cff-bddc-73bd38016dbd")
-	)
 	(label "RCT"
 		(at 143.51 121.92 0)
 		(fields_autoplaced yes)
@@ -5344,7 +5324,7 @@
 		)
 		(uuid "51567382-e971-4640-b109-bd188baabbb2")
 	)
-	(hierarchical_label "EMAC_RXD+"
+	(hierarchical_label "EMAC_RXD0"
 		(shape output)
 		(at 246.38 163.83 270)
 		(fields_autoplaced yes)
@@ -5368,7 +5348,7 @@
 		)
 		(uuid "77061634-c839-4e28-b6f3-30f29cb7c173")
 	)
-	(hierarchical_label "EMAC_TXD+"
+	(hierarchical_label "EMAC_TXD0"
 		(shape input)
 		(at 264.16 163.83 270)
 		(fields_autoplaced yes)
@@ -5380,7 +5360,7 @@
 		)
 		(uuid "81e0bcab-a929-4339-a723-136562ce9e6a")
 	)
-	(hierarchical_label "EMAC_RXD-"
+	(hierarchical_label "EMAC_RXD1"
 		(shape output)
 		(at 248.92 163.83 270)
 		(fields_autoplaced yes)
@@ -5392,7 +5372,7 @@
 		)
 		(uuid "8cad01f7-9d2c-41a5-a8ab-b4b5d626df79")
 	)
-	(hierarchical_label "EMAC_TXD-"
+	(hierarchical_label "EMAC_TXD1"
 		(shape input)
 		(at 295.91 132.08 0)
 		(fields_autoplaced yes)
@@ -7071,11 +7051,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 53.34 115.57 0)
+			(at 50.8 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -8296,9 +8277,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "45c3263a-9036-4222-91f2-8331668cfc8c")
 		(property "Reference" "C10"
-			(at 140.97 32.385 90)
+			(at 140.97 27.94 90)
 			(effects
 				(font
 					(size 0.8382 0.8382)
@@ -8306,7 +8288,7 @@
 			)
 		)
 		(property "Value" "47uF"
-			(at 144.78 34.29 90)
+			(at 140.97 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8739,17 +8721,18 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "580a0b7d-7495-4ab2-9900-90fece7fc8d3")
 		(property "Reference" "R18"
-			(at 331.47 78.105 90)
+			(at 332.74 73.66 90)
 			(effects
 				(font
 					(size 0.8382 0.8382)
 				)
 			)
 		)
-		(property "Value" "220"
-			(at 332.74 80.01 90)
+		(property "Value" "220Ω"
+			(at 332.74 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10193,17 +10176,18 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "982fb272-883a-40d3-ac0b-cbcab6cf5756")
 		(property "Reference" "R16"
-			(at 331.47 61.595 90)
+			(at 332.74 57.15 90)
 			(effects
 				(font
 					(size 0.8382 0.8382)
 				)
 			)
 		)
-		(property "Value" "2K49"
-			(at 332.74 63.5 90)
+		(property "Value" "2.49Ω"
+			(at 332.74 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10413,17 +10397,18 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "98ff9077-6043-4c2a-a51c-f42fb12fcd43")
 		(property "Reference" "R17"
-			(at 331.47 69.215 90)
+			(at 332.74 64.77 90)
 			(effects
 				(font
 					(size 0.8382 0.8382)
 				)
 			)
 		)
-		(property "Value" "2K49"
-			(at 332.74 71.12 90)
+		(property "Value" "2.49Ω"
+			(at 332.74 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10633,17 +10618,18 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "9a55571b-5783-48ed-acc3-6d998df49638")
 		(property "Reference" "R15"
-			(at 331.47 52.705 90)
+			(at 332.74 48.26 90)
 			(effects
 				(font
 					(size 0.8382 0.8382)
 				)
 			)
 		)
-		(property "Value" "220"
-			(at 332.74 54.61 90)
+		(property "Value" "220Ω"
+			(at 332.74 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10900,7 +10886,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C57112"
+		(property "LCSC" "C43253"
 			(at 154.94 140.97 0)
 			(effects
 				(font
@@ -11674,9 +11660,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "ab5852eb-2532-4bed-98d2-97821fcdad53")
 		(property "Reference" "C9"
-			(at 140.97 22.225 90)
+			(at 140.97 17.78 90)
 			(effects
 				(font
 					(size 0.8382 0.8382)
@@ -11684,7 +11671,7 @@
 			)
 		)
 		(property "Value" "47uF"
-			(at 144.78 24.13 90)
+			(at 140.97 20.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13483,7 +13470,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2K49"
+		(property "Value" "2.49Ω"
 			(at 224.79 39.3699 0)
 			(effects
 				(font
@@ -13970,7 +13957,7 @@
 			(uuid "b1d98db9-7aa9-4add-bd78-fa5736ed2602")
 		)
 		(instances
-			(project ""
+			(project "Lichtstab"
 				(path "/e085f17c-3357-4281-ab9e-eebcecacdfc5/f0684335-54fe-4c40-868c-eb2ee3b6696b"
 					(reference "L5")
 					(unit 1)
@@ -14500,7 +14487,7 @@
 		(fields_autoplaced yes)
 		(uuid "e7e880bd-4dd0-4013-b191-090b51b3d703")
 		(property "Reference" "C45"
-			(at 102.235 242.9509 0)
+			(at 102.87 242.9509 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14509,7 +14496,7 @@
 			)
 		)
 		(property "Value" "330u / 25V"
-			(at 102.235 245.4909 0)
+			(at 102.87 245.4909 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14704,7 +14691,7 @@
 			(uuid "e639e089-4b97-4c92-be6e-8699bdc45162")
 		)
 		(instances
-			(project ""
+			(project "Lichtstab"
 				(path "/e085f17c-3357-4281-ab9e-eebcecacdfc5/f0684335-54fe-4c40-868c-eb2ee3b6696b"
 					(reference "C45")
 					(unit 1)
